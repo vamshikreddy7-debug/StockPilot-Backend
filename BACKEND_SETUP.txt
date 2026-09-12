@@ -1,0 +1,41 @@
+.NET 8.0 ASP.NET Core Backend for StockPilot
+==============================================
+
+A production-ready REST API for inventory and sales management.
+
+## Quick Start
+
+1. Update connection string in appsettings.json
+2. Run: dotnet ef database update
+3. Run: dotnet run
+4. Visit: https://localhost:5001/swagger
+
+## Key Features
+
+✅ User Authentication (JWT)
+✅ Inventory Management (CRUD)
+✅ Sales Processing
+✅ Analytics & Reports
+✅ Low-Stock Alerts
+✅ SQL Server Database
+✅ Swagger Documentation
+✅ Structured Logging
+
+## Project Structure
+
+Controllers/     - API endpoints
+Models/          - Database entities
+DTOs/            - Request/response objects
+Services/        - Business logic
+Data/            - Database context
+Middleware/      - Custom middleware
+Common/          - Shared utilities
+
+## Integration
+
+Frontend: https://github.com/vamshikreddy7-debug/UXDesignForStockPilot
+Android: Can use the same API endpoints
+
+## Documentation
+
+See README.md for full API documentation and DEVELOPMENT.md for development guidelines.

@@ -1,0 +1,51 @@
+# Logs
+logs/
+
+# Build results
+bin/
+obj/
+.vs/
+
+# Dependencies
+packages/
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment files
+.env
+.env.local
+appsettings.*.local.json
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Database
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# Build artifacts
+*.nupkg
+*.snupkg
+
+# Visual Studio cache/options directory
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
